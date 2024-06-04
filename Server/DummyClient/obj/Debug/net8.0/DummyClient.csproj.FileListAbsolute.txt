@@ -1,0 +1,14 @@
+C:\ServerPractice\Server\DummyClient\bin\Debug\net8.0\DummyClient.exe
+C:\ServerPractice\Server\DummyClient\bin\Debug\net8.0\DummyClient.deps.json
+C:\ServerPractice\Server\DummyClient\bin\Debug\net8.0\DummyClient.runtimeconfig.json
+C:\ServerPractice\Server\DummyClient\bin\Debug\net8.0\DummyClient.dll
+C:\ServerPractice\Server\DummyClient\bin\Debug\net8.0\DummyClient.pdb
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.AssemblyInfoInputs.cache
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.AssemblyInfo.cs
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.csproj.CoreCompileInputs.cache
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.dll
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\refint\DummyClient.dll
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.pdb
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\DummyClient.genruntimeconfig.cache
+C:\ServerPractice\Server\DummyClient\obj\Debug\net8.0\ref\DummyClient.dll
