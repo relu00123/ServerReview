@@ -16,7 +16,7 @@ namespace ServerCore
         RecvBuffer _recvBuffer = new RecvBuffer(1024);
 
         object _lock = new object();
-        Queue<byte[]> _sendQueue = new Queue<byte[]>();
+        Queue<ArraySegment<byte>> _sendQueue = new Queue<ArraySegment<byte>>();
         List<ArraySegment<byte>> _pendingList = new List<ArraySegment<byte>>();
         SocketAsyncEventArgs _sendArgs = new SocketAsyncEventArgs();
         SocketAsyncEventArgs _recvArgs = new SocketAsyncEventArgs();
@@ -42,7 +42,7 @@ namespace ServerCore
         // 매번 보내는 것이 아니라 차곡차곡 모았다가 한번만 보낼 것이다.
         // 누군가가 동시다발적으로 Send를 호출할 수 있기 때문에
         // Lock을 해줘야 한다. 
-        public void Send(byte[] sendBuff)
+        public void Send(ArraySegment<byte> sendBuff)
         {
             lock (_lock)
             {
@@ -70,9 +70,9 @@ namespace ServerCore
             // 뭉텅이로 보내버린다. 
             while (_sendQueue.Count > 0)
             {
-                byte[] buff = _sendQueue.Dequeue();
+                ArraySegment<byte> buff = _sendQueue.Dequeue();
                 // Array Segment : Array의 일부, C#에는 포인터가 없어서 넣어줄 때 불편한..  (시작주소, offset, length인듯?)
-                _pendingList.Add(new ArraySegment<byte>(buff, 0, buff.Length));
+                _pendingList.Add(buff);
             }
 
             _sendArgs.BufferList = _pendingList;
