@@ -50,3 +50,4 @@ C:\Users\Desktop\Desktop\ServerReview\Server\DummyClient\obj\Release\net8.0\refi
 C:\Users\Desktop\Desktop\ServerReview\Server\DummyClient\obj\Release\net8.0\DummyClient.pdb
 C:\Users\Desktop\Desktop\ServerReview\Server\DummyClient\obj\Release\net8.0\DummyClient.genruntimeconfig.cache
 C:\Users\Desktop\Desktop\ServerReview\Server\DummyClient\obj\Release\net8.0\ref\DummyClient.dll
+C:\Users\Desktop\Desktop\ServerReview\Server\DummyClient\obj\Release\net8.0\DummyClient.sourcelink.json

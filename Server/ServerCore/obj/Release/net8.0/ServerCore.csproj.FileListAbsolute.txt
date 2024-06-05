@@ -36,3 +36,4 @@ C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Release\net8.0\Serve
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Release\net8.0\refint\ServerCore.dll
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Release\net8.0\ServerCore.pdb
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Release\net8.0\ref\ServerCore.dll
+C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Release\net8.0\ServerCore.sourcelink.json
