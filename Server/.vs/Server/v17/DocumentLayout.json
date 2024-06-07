@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ServerReview\\Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|c:\\serverreview\\server\\dummyclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|solutionrelative:dummyclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|c:\\serverreview\\server\\servercore\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|c:\\serverreview\\server\\server\\clientsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\clientsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|c:\\serverreview\\server\\dummyclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|solutionrelative:dummyclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|c:\\serverreview\\server\\dummyclient\\serversession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,11 +65,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -79,27 +83,27 @@
               "RelativeDocumentMoniker": "DummyClient\\ServerSession.cs",
               "ToolTip": "C:\\ServerReview\\Server\\DummyClient\\ServerSession.cs",
               "RelativeToolTip": "DummyClient\\ServerSession.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAowHUAAAAJAAAA",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAowKcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T03:23:10.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ClientSession.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\Server\\ClientSession.cs",
               "RelativeDocumentMoniker": "Server\\ClientSession.cs",
               "ToolTip": "C:\\ServerReview\\Server\\Server\\ClientSession.cs",
               "RelativeToolTip": "Server\\ClientSession.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAowIwAAABCAAAA",
+              "ViewState": "AQIAALoAAAAAAAAAAAAowMoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T03:15:32.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RecvBuffer.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\ServerCore\\RecvBuffer.cs",
               "RelativeDocumentMoniker": "ServerCore\\RecvBuffer.cs",
@@ -112,33 +116,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\ServerCore\\Session.cs",
               "RelativeDocumentMoniker": "ServerCore\\Session.cs",
               "ToolTip": "C:\\ServerReview\\Server\\ServerCore\\Session.cs",
               "RelativeToolTip": "ServerCore\\Session.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAApwNYAAAABAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAApwNcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T10:53:48.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Listener.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\ServerCore\\Listener.cs",
               "RelativeDocumentMoniker": "ServerCore\\Listener.cs",
               "ToolTip": "C:\\ServerReview\\Server\\ServerCore\\Listener.cs",
               "RelativeToolTip": "ServerCore\\Listener.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAiwGIAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAiwF8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T09:44:54.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
@@ -151,33 +155,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Connector.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\ServerCore\\Connector.cs",
               "RelativeDocumentMoniker": "ServerCore\\Connector.cs",
               "ToolTip": "C:\\ServerReview\\Server\\ServerCore\\Connector.cs",
               "RelativeToolTip": "ServerCore\\Connector.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAIwDQAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAUwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T17:01:37.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\DummyClient\\Program.cs",
               "RelativeDocumentMoniker": "DummyClient\\Program.cs",
               "ToolTip": "C:\\ServerReview\\Server\\DummyClient\\Program.cs",
               "RelativeToolTip": "DummyClient\\Program.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwC0AAAABAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T09:46:34.223Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -193,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SendBuffer.cs",
               "DocumentMoniker": "C:\\ServerReview\\Server\\ServerCore\\SendBuffer.cs",
               "RelativeDocumentMoniker": "ServerCore\\SendBuffer.cs",
