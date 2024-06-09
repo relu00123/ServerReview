@@ -24,13 +24,18 @@ namespace DummyClient
 
 
             Connector connector = new Connector();
-            connector.Connect(endPoint, () => { return new ServerSession(); });
+
+            // 마지막인자는 몇개의 Client가 접속할 것인지? 일반적인 게임이라면 1개이겠지만
+            // 이것은 DummyClient로 여러개의 Client접속 상황을 체크하기위해 사용한다. 
+            connector.Connect(endPoint, () => { return SessionManager.Instance.Generate(); },
+                100);
 
 
             while (true)
             {
                 try
                 {
+                    SessionManager.Instance.SendForEach();
                 }
 
                 catch (Exception e)
@@ -38,7 +43,7 @@ namespace DummyClient
                     Console.WriteLine(e.ToString());
                 }
 
-                Thread.Sleep(100);
+                Thread.Sleep(250);
 
             }
         }

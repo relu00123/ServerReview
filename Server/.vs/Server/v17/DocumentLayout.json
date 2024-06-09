@@ -35,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|solutionrelative:dummyclient\\serversession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\dummyclient\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1D4790-3298-4BC4-82B8-BFDDA28AC195}|DummyClient\\DummyClient.csproj|solutionrelative:dummyclient\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\server\\packet\\genpackets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\packet\\genpackets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\session\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\server\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\listener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\servercore\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\servercore\\recvbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\recvbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,6 +85,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\servercore\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75887F4E-3BCA-4A99-A17C-F71CA52F1FF4}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|c:\\users\\desktop\\desktop\\serverreview\\server\\servercore\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D73C01-F160-44F1-BACE-8EF71FE9A65E}|ServerCore\\ServerCore.csproj|solutionrelative:servercore\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -112,7 +116,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -122,35 +126,9 @@
               "RelativeDocumentMoniker": "DummyClient\\Packet\\GenPackets.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\GenPackets.cs",
               "RelativeToolTip": "DummyClient\\Packet\\GenPackets.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAYwFQAAAAeAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T15:27:51.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ServerSession.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\ServerSession.cs",
-              "RelativeDocumentMoniker": "DummyClient\\ServerSession.cs",
-              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\ServerSession.cs",
-              "RelativeToolTip": "DummyClient\\ServerSession.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwB4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T03:23:10.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Program.cs",
-              "RelativeDocumentMoniker": "DummyClient\\Program.cs",
-              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Program.cs",
-              "RelativeToolTip": "DummyClient\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T09:46:34.223Z",
               "EditorCaption": ""
             },
             {
@@ -161,9 +139,22 @@
               "RelativeDocumentMoniker": "DummyClient\\Packet\\ClientPacketManager.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\ClientPacketManager.cs",
               "RelativeToolTip": "DummyClient\\Packet\\ClientPacketManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBgAAAAbAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwCEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T14:54:09.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Program.cs",
+              "RelativeDocumentMoniker": "DummyClient\\Program.cs",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Program.cs",
+              "RelativeToolTip": "DummyClient\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:46:34.223Z",
               "EditorCaption": ""
             },
             {
@@ -200,27 +191,66 @@
               "RelativeDocumentMoniker": "PacketGenerator\\PacketFormat.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\PacketGenerator\\PacketFormat.cs",
               "RelativeToolTip": "PacketGenerator\\PacketFormat.cs",
-              "ViewState": "AQIAAMoAAAAAAAAAAAAqwOQAAAAAAAAA",
+              "ViewState": "AQIAALcAAAAAAAAAAAAYwMAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:26:30.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PacketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\PacketHandler.cs",
+              "RelativeDocumentMoniker": "DummyClient\\Packet\\PacketHandler.cs",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\PacketHandler.cs",
+              "RelativeToolTip": "DummyClient\\Packet\\PacketHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:54:07.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerSession.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\ServerSession.cs",
+              "RelativeDocumentMoniker": "DummyClient\\ServerSession.cs",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\ServerSession.cs",
+              "RelativeToolTip": "DummyClient\\ServerSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:23:10.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\SessionManager.cs",
+              "RelativeDocumentMoniker": "DummyClient\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\SessionManager.cs",
+              "RelativeToolTip": "DummyClient\\SessionManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswCQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:43:12.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GenPackets.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Packet\\GenPackets.cs",
               "RelativeDocumentMoniker": "Server\\Packet\\GenPackets.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Packet\\GenPackets.cs",
               "RelativeToolTip": "Server\\Packet\\GenPackets.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAYwFEAAAAZAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAYwGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T14:54:19.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PacketHandler.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Packet\\PacketHandler.cs",
               "RelativeDocumentMoniker": "Server\\Packet\\PacketHandler.cs",
@@ -233,52 +263,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ServerPacketManager.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Packet\\ServerPacketManager.cs",
               "RelativeDocumentMoniker": "Server\\Packet\\ServerPacketManager.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Packet\\ServerPacketManager.cs",
               "RelativeToolTip": "Server\\Packet\\ServerPacketManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAzwCAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwDEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T14:54:16.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PacketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\PacketHandler.cs",
-              "RelativeDocumentMoniker": "DummyClient\\Packet\\PacketHandler.cs",
-              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\DummyClient\\Packet\\PacketHandler.cs",
-              "RelativeToolTip": "DummyClient\\Packet\\PacketHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T14:54:07.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ClientSession.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Session\\ClientSession.cs",
               "RelativeDocumentMoniker": "Server\\Session\\ClientSession.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Session\\ClientSession.cs",
               "RelativeToolTip": "Server\\Session\\ClientSession.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAswBEAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T03:15:32.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SessionManager.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Session\\SessionManager.cs",
               "RelativeDocumentMoniker": "Server\\Session\\SessionManager.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Session\\SessionManager.cs",
               "RelativeToolTip": "Server\\Session\\SessionManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T15:15:27.256Z",
               "EditorCaption": ""
@@ -291,7 +308,7 @@
               "RelativeDocumentMoniker": "Server\\GameRoom.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\GameRoom.cs",
               "RelativeToolTip": "Server\\GameRoom.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAxwCAAAAAwAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T15:00:02.936Z",
               "EditorCaption": ""
@@ -304,7 +321,7 @@
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T17:25:32.866Z",
               "EditorCaption": ""
@@ -317,7 +334,7 @@
               "RelativeDocumentMoniker": "ServerCore\\Connector.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Connector.cs",
               "RelativeToolTip": "ServerCore\\Connector.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAUwDQAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T17:01:37.551Z",
               "EditorCaption": ""
@@ -338,58 +355,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Lock.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Lock.cs",
-              "RelativeDocumentMoniker": "ServerCore\\Lock.cs",
-              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Lock.cs",
-              "RelativeToolTip": "ServerCore\\Lock.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAgwFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:18:28.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "RecvBuffer.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\RecvBuffer.cs",
               "RelativeDocumentMoniker": "ServerCore\\RecvBuffer.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\RecvBuffer.cs",
               "RelativeToolTip": "ServerCore\\RecvBuffer.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwEMAAAAAAAAA",
+              "ViewState": "AQIAADoAAAAA1Dpc2twQwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T02:55:14.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Server.csproj",
-              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Server.csproj",
-              "RelativeDocumentMoniker": "Server\\Server.csproj",
-              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Server.csproj",
-              "RelativeToolTip": "Server\\Server.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-31T10:20:18.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "SendBuffer.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\SendBuffer.cs",
               "RelativeDocumentMoniker": "ServerCore\\SendBuffer.cs",
               "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\SendBuffer.cs",
               "RelativeToolTip": "ServerCore\\SendBuffer.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAYwC0AAAAnAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAzwC0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T10:46:34.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Session.cs",
               "RelativeDocumentMoniker": "ServerCore\\Session.cs",
@@ -403,6 +394,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "Lock.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Lock.cs",
+              "RelativeDocumentMoniker": "ServerCore\\Lock.cs",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\Lock.cs",
+              "RelativeToolTip": "ServerCore\\Lock.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:18:28.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Server.csproj",
+              "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T10:20:18.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "SafeFileHandle.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\365af0975efab538f5cdae19755699b1772611444e1a6146c987bfcf3974f194\\SafeFileHandle.cs",
@@ -415,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ServerCore.csproj",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\ServerCore.csproj",
               "RelativeDocumentMoniker": "ServerCore\\ServerCore.csproj",
@@ -428,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ServerCore",
               "DocumentMoniker": "C:\\Users\\Desktop\\Desktop\\ServerReview\\Server\\ServerCore\\ServerCore.csproj",
               "RelativeDocumentMoniker": "ServerCore\\ServerCore.csproj",
@@ -440,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Interop.cs [\uC77D\uAE30 \uC804\uC6A9]",
               "DocumentMoniker": "C:\\Users\\201710881\\AppData\\Local\\Temp\\.vsdbgsrc\\8345ef61f71eff0b5e6915096f4aeb2942644975161f5eda0710e4f30a6e0315\\Interop.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\201710881\\AppData\\Local\\Temp\\.vsdbgsrc\\8345ef61f71eff0b5e6915096f4aeb2942644975161f5eda0710e4f30a6e0315\\Interop.cs",
