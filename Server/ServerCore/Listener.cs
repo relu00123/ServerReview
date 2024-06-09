@@ -32,7 +32,7 @@ namespace ServerCore
             // 전화 대기열이 10명이 넘어가면 바로 컷트 (Fail)
             _listenSocket.Listen(10);
 
-
+           
 
             SocketAsyncEventArgs args = new SocketAsyncEventArgs();
             // EventHandler방식이다. Event방식 즉, Callback으로 전달해준다.

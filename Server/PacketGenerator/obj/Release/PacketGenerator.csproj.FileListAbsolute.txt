@@ -1,0 +1,15 @@
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\bin\Release\PacketGenerator.exe
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\bin\Release\PacketGenerator.deps.json
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\bin\Release\PacketGenerator.runtimeconfig.json
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\bin\Release\PacketGenerator.dll
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\bin\Release\PacketGenerator.pdb
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.AssemblyInfoInputs.cache
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.AssemblyInfo.cs
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.sourcelink.json
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.dll
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\refint\PacketGenerator.dll
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.pdb
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\PacketGenerator.genruntimeconfig.cache
+C:\Users\Desktop\Desktop\ServerPractice\Server\PacketGenerator\obj\Release\ref\PacketGenerator.dll

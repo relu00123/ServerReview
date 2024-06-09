@@ -1,27 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace ServerCore
 {
     public abstract class PacketSession : Session
     {
         public static readonly int HeaderSize = 2;
-        // [size(2)][packetid(2)][...][size(2)][packetId(2)][...]
-        // sealed를 붙이면 OnRecv를 다른 클래스가 상속받아서 Override하려고 하면 Error 발생
+
+        // [size(2)][packetId(2)][ ... ][size(2)][packetId(2)][ ... ]
         public sealed override int OnRecv(ArraySegment<byte> buffer)
         {
-            // 우선 2바이트가 도착했는지 확인 
-            // 해당사이즈 만큼 데이터가 다 왔는지 확인하고 처리한다.
             int processLen = 0;
 
             while (true)
             {
-                // 최서한 헤더는 파싱할 수 있는지 확인
+                // 최소한 헤더는 파싱할 수 있는지 확인
                 if (buffer.Count < HeaderSize)
                     break;
 
@@ -30,20 +27,17 @@ namespace ServerCore
                 if (buffer.Count < dataSize)
                     break;
 
-                // 여기까지 왔으면 패킷 조립가능
-                OnRecvPacket(new ArraySegment<byte>(buffer.Array, buffer.Offset, dataSize)); ;
+                // 여기까지 왔으면 패킷 조립 가능
+                OnRecvPacket(new ArraySegment<byte>(buffer.Array, buffer.Offset, dataSize));
 
                 processLen += dataSize;
                 buffer = new ArraySegment<byte>(buffer.Array, buffer.Offset + dataSize, buffer.Count - dataSize);
-
             }
 
-            // 내가 처리한 Byte 수
             return processLen;
         }
 
         public abstract void OnRecvPacket(ArraySegment<byte> buffer);
-
     }
 
     public abstract class Session
@@ -60,12 +54,9 @@ namespace ServerCore
         SocketAsyncEventArgs _recvArgs = new SocketAsyncEventArgs();
 
         public abstract void OnConnected(EndPoint endPoint);
-
-        // 얼마만큼의 데이터를 처리했는지를 반환한다.
         public abstract int OnRecv(ArraySegment<byte> buffer);
         public abstract void OnSend(int numOfBytes);
         public abstract void OnDisconnected(EndPoint endPoint);
-
 
         public void Start(Socket socket)
         {
@@ -77,27 +68,23 @@ namespace ServerCore
             RegisterRecv();
         }
 
-        // 매번 보내는 것이 아니라 차곡차곡 모았다가 한번만 보낼 것이다.
-        // 누군가가 동시다발적으로 Send를 호출할 수 있기 때문에
-        // Lock을 해줘야 한다. 
         public void Send(ArraySegment<byte> sendBuff)
         {
             lock (_lock)
             {
                 _sendQueue.Enqueue(sendBuff);
-                if (_pendingList.Count == 0) // 내가 1빠로 Send하는 경우
+                if (_pendingList.Count == 0)
                     RegisterSend();
             }
         }
 
-        // 쫓아낸다
         public void Disconnect()
         {
             if (Interlocked.Exchange(ref _disconnected, 1) == 1)
                 return;
 
             OnDisconnected(_socket.RemoteEndPoint);
-            _socket.Shutdown(SocketShutdown.Both); // 듣기도 싫고 말하기도 싫다.
+            _socket.Shutdown(SocketShutdown.Both);
             _socket.Close();
         }
 
@@ -105,14 +92,11 @@ namespace ServerCore
 
         void RegisterSend()
         {
-            // 뭉텅이로 보내버린다. 
             while (_sendQueue.Count > 0)
             {
                 ArraySegment<byte> buff = _sendQueue.Dequeue();
-                // Array Segment : Array의 일부, C#에는 포인터가 없어서 넣어줄 때 불편한..  (시작주소, offset, length인듯?)
                 _pendingList.Add(buff);
             }
-
             _sendArgs.BufferList = _pendingList;
 
             bool pending = _socket.SendAsync(_sendArgs);
@@ -133,10 +117,8 @@ namespace ServerCore
 
                         OnSend(_sendArgs.BytesTransferred);
 
-
                         if (_sendQueue.Count > 0)
                             RegisterSend();
-
                     }
                     catch (Exception e)
                     {
@@ -156,19 +138,13 @@ namespace ServerCore
             ArraySegment<byte> segment = _recvBuffer.WriteSegment;
             _recvArgs.SetBuffer(segment.Array, segment.Offset, segment.Count);
 
-
-            // 기존에는 동기화 버전이였는데 이제는 비동기 버전으로 바꿀 것임
             bool pending = _socket.ReceiveAsync(_recvArgs);
-
             if (pending == false)
-            {
                 OnRecvCompleted(null, _recvArgs);
-            }
         }
 
         void OnRecvCompleted(object sender, SocketAsyncEventArgs args)
         {
-
             if (args.BytesTransferred > 0 && args.SocketError == SocketError.Success)
             {
                 try
@@ -176,22 +152,22 @@ namespace ServerCore
                     // Write 커서 이동
                     if (_recvBuffer.OnWrite(args.BytesTransferred) == false)
                     {
-                        Disconnect(); // 일어나면 안되는 상황
+                        Disconnect();
                         return;
                     }
 
-                    // 컨텐츠 쪽으로 데이터를 넘겨주고 얼마나 처리했는지 받는다.
+                    // 컨텐츠 쪽으로 데이터를 넘겨주고 얼마나 처리했는지 받는다
                     int processLen = OnRecv(_recvBuffer.ReadSegment);
                     if (processLen < 0 || _recvBuffer.DataSize < processLen)
                     {
-                        Disconnect(); // 일어나면 안되는 상황
+                        Disconnect();
                         return;
                     }
 
-                    // Read커서 이동
+                    // Read 커서 이동
                     if (_recvBuffer.OnRead(processLen) == false)
                     {
-                        Disconnect(); // 일어나면 안되는 상황
+                        Disconnect();
                         return;
                     }
 
@@ -202,12 +178,10 @@ namespace ServerCore
                     Console.WriteLine($"OnRecvCompleted Failed {e}");
                 }
             }
-
             else
             {
                 Disconnect();
             }
-
         }
 
         #endregion

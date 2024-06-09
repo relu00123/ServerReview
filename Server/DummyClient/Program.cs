@@ -7,7 +7,7 @@ using ServerCore;
 
 namespace DummyClient
 {
-
+    
 
     class Program
     {
