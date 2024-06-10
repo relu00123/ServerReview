@@ -36,3 +36,15 @@ C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerC
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Debug\net8.0\refint\ServerCore.dll
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.pdb
 C:\Users\Desktop\Desktop\ServerReview\Server\ServerCore\obj\Debug\net8.0\ref\ServerCore.dll
+C:\ServerReview\Server\ServerCore\bin\Debug\net8.0\ServerCore.deps.json
+C:\ServerReview\Server\ServerCore\bin\Debug\net8.0\ServerCore.dll
+C:\ServerReview\Server\ServerCore\bin\Debug\net8.0\ServerCore.pdb
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfoInputs.cache
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfo.cs
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.sourcelink.json
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.dll
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\refint\ServerCore.dll
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ServerCore.pdb
+C:\ServerReview\Server\ServerCore\obj\Debug\net8.0\ref\ServerCore.dll

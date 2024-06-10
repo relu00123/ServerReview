@@ -15,6 +15,12 @@ namespace Server
         static Listener _listener = new Listener();
         public static GameRoom Room = new GameRoom();
 
+        static void FlushRoom()
+        {
+            Room.Push(() => Room.Flush());
+            JobTimer.Instance.Push(FlushRoom, 250);
+        }
+
         static void Main(string[] args)
         {
 
@@ -31,11 +37,17 @@ namespace Server
             _listener.init(endPoint, () => { return SessionManager.Instance.Generate(); });
             Console.WriteLine("Listening...");
 
+
+            // 재귀적으로 호출 
+            //FlushRoom();
+            // 아래와 위는 같은 뜻이다.
+            JobTimer.Instance.Push(FlushRoom);
+
+
             while (true)
             {
-                ;
+                JobTimer.Instance.Flush();
             }
-
         }
     }
 }

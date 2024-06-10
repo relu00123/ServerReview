@@ -14,10 +14,20 @@ namespace Server
         // 여기에 작성되는 코드들은 멀티 쓰레드 환경에서 돌아가는 코드들이다. 
         List<ClientSession> _sessions = new List<ClientSession>();
         JobQueue _jobQueue = new JobQueue();
+        List<ArraySegment<byte>> _pendingList = new List<ArraySegment<byte>>();
 
         public void Push(Action job)
         {
             _jobQueue.Push(job);
+        }
+
+        public void Flush()
+        {
+            foreach (ClientSession s in _sessions)
+                s.Send(_pendingList);
+
+            Console.WriteLine($"Flushed {_pendingList.Count} itmes");
+            _pendingList.Clear();
         }
 
 
@@ -28,9 +38,9 @@ namespace Server
             packet.chat = $"{chat}  I am {packet.playerId}";
 
             ArraySegment<byte> segment = packet.Write();
+            _pendingList.Add(segment);
 
-            foreach (ClientSession s in _sessions)
-                s.Send(segment);
+
         }
 
 
@@ -46,3 +56,4 @@ namespace Server
         }
     }
 }
+
