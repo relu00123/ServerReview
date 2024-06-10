@@ -13,7 +13,7 @@ namespace ServerCore
         Socket _listenSocket;
         Func<Session> _sessionFactory;
 
-        public void init(IPEndPoint endPoint, Func<Session> sessionFactory)
+        public void init(IPEndPoint endPoint, Func<Session> sessionFactory, int register = 10, int backlog = 100)
         {
             // 문지기
             // 첫번째 인자 : 네트워크 주소, AddressFamily에는 Ipv4인지 Ipv6인지
@@ -30,18 +30,21 @@ namespace ServerCore
             // 영업시작
             // 인자는 최대 대기수를 의미한다. 
             // 전화 대기열이 10명이 넘어가면 바로 컷트 (Fail)
-            _listenSocket.Listen(10);
+            _listenSocket.Listen(backlog);
 
-           
 
-            SocketAsyncEventArgs args = new SocketAsyncEventArgs();
-            // EventHandler방식이다. Event방식 즉, Callback으로 전달해준다.
-            // Delegate 형식이다. 
-            // Client가 Connect요청이 왔다면 Callback방식으로 On AcceptCompleted가 호출될 것임.
-            args.Completed += new EventHandler<SocketAsyncEventArgs>(OnAcceptCompleted); // 물고기가 물면 낚아챈다.
+            // register는 문지기의 개수
+            for (int i = 0; i < register; i++)
+            {
+                SocketAsyncEventArgs args = new SocketAsyncEventArgs();
+                // EventHandler방식이다. Event방식 즉, Callback으로 전달해준다.
+                // Delegate 형식이다. 
+                // Client가 Connect요청이 왔다면 Callback방식으로 On AcceptCompleted가 호출될 것임.
+                args.Completed += new EventHandler<SocketAsyncEventArgs>(OnAcceptCompleted); // 물고기가 물면 낚아챈다.
 
-            // 최초로 낚시대를 던졌음 ... 
-            RegisterAccept(args);
+                // 최초로 낚시대를 던졌음 ... 
+                RegisterAccept(args);
+            }
         }
 
         void RegisterAccept(SocketAsyncEventArgs args)

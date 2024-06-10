@@ -1,4 +1,5 @@
-﻿using Server.Session;
+﻿using Server;
+using Server.Session;
 using ServerCore;
 using System;
 using System.Collections.Generic;
@@ -19,11 +20,10 @@ class PacketHandler
         if (clientSession.Room == null)
             return;
 
-        // 모든 Client에게 들어온 메세지를 뿌려준다. 
-        clientSession.Room.Broadcast(clientSession, chatPacket.chat);
+        GameRoom room = clientSession.Room;
+        room.Push(
+            () => room.Broadcast(clientSession, chatPacket.chat)
+        );
     }
-
-
-
 }
 
